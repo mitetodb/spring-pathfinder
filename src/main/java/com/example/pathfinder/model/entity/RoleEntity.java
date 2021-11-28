@@ -2,10 +2,7 @@ package com.example.pathfinder.model.entity;
 
 import com.example.pathfinder.model.entity.enums.RoleNameEnum;
 
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "roles")
